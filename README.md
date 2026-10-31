@@ -13,7 +13,7 @@ PyTorch · Custom CNN · ResNet-18 · Self-supervised transfer · Grad-CAM · RO
 
 ![VISIONFORGE research dashboard — actual browser screenshot](docs/screenshots/01_dashboard_hero.png)
 
-> **Project status — VERIFIED EXPERIMENT.** The included metrics, weights, heatmaps and screenshots are generated from a real CPU-trained benchmark. This is an independent research portfolio project designed around areas in the BTU Cottbus-Senftenberg Artificial Intelligence M.Sc. curriculum; it is **not** an official BTU project. The offline pilot is on a small handwriting benchmark, *not ImageNet or CIFAR-10*. A separate, **unexecuted** ImageNet→CIFAR-10 extension is provided.
+
 
 ## Research question
 
