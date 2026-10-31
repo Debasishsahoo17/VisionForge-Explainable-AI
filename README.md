@@ -60,9 +60,7 @@ Grad-CAM uses the final convolutional feature maps and gradients of the chosen c
 | **Engineering** | Reproducible commands, public benchmark loader, documented model cards, automated pytest tests and GitHub Actions CI |
 | **Expansion** | Separate optional ImageNet-pretrained ResNet-18 vs scratch CNN experiment on CIFAR-10 (code only; not run here) |
 
-### Research report (included PDF)
 
-A six-page research report with the official BTU curriculum mapping, real evaluation results, confusion matrices, training curves and Grad-CAM gallery is included at **[docs/VISIONFORGE_Research_Report.pdf](docs/VISIONFORGE_Research_Report.pdf)**.
 
 ### More actual UI screenshots
 
@@ -135,7 +133,7 @@ VISIONFORGE_Explainable_AI/
 ├── docs/
 │   ├── assets/                    # Real experiment plots
 │   ├── screenshots/              # 6 ACTUAL Chromium captures
-│   ├── BTU_ALIGNMENT.md
+│   ├──
 │   ├── MODEL_CARDS.md
 │   ├── DATASET_CARD.md
 │   └── REPRODUCIBILITY.md
@@ -175,9 +173,7 @@ python scripts/train_cifar10.py --train-limit 12000 --cnn-epochs 10 --transfer-e
 
 Results for this optional study are **not included**: its pipeline was implemented but not executed here. Do not copy the offline-digit results into a CIFAR-10 claim.
 
-## Curriculum relevance
 
-The project has clear methodological overlap with BTU's [Artificial Intelligence M.Sc.](https://www.b-tu.de/en/artificial-intelligence-ms), especially **14186 Image Processing and Computer Vision**, **14021 Explainable Machine Learning**, **11847 Neural Networks and Learning Theory**, and **14449 Workflows for Machine Learning and Reproducible Science Laboratory**. See [curriculum mapping and official handbook references](docs/BTU_ALIGNMENT.md). **Curriculum overlap is not an admissions guarantee.**
 
 ## Research limits & responsible interpretation
 
